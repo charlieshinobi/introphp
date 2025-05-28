@@ -1,0 +1,21 @@
+# Ignorar archivos del entorno
+.env
+
+# Ignorar dependencias
+node_modules/
+vendor/
+config/
+config/database.php
+
+# Ignorar cachés y logs
+*.log
+storage/logs/
+storage/framework/cache/
+
+# Ignorar IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
